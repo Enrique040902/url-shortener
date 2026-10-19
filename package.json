@@ -1,0 +1,25 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "URL shortener project to practice Express.js",
+  "keywords": [
+    "url",
+    "shortener",
+    "express.js",
+    "node.js",
+    "javascript"
+  ],
+  "license": "ISC",
+  "author": "Enrique Sánchez",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch --env-file=.env server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "5.3.0",
+    "pg": "8.23.1",
+    "uuidv7": "1.2.1"
+  }
+}

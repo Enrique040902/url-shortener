@@ -1,0 +1,26 @@
+# Create a short url
+POST http://localhost:3000/v1/shorten HTTP/1.1
+Content-Type: application/json
+
+{
+  "url": "https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Optional_chaining"
+}
+
+###
+
+
+POST http://localhost:3000/v1/shorten HTTP/1.1
+Content-Type: application/json
+
+{
+  "hola": 4
+}
+
+###
+
+# Get short code url
+GET http://localhost:3000 HTTP/1.1
+
+###
+
+GET http://localhost:3000/vPhpnaCd HTTP/1.1
